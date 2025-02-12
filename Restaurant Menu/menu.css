@@ -1,0 +1,73 @@
+
+body{
+   background-image: url(image/premium_photo-1673580742890-4af144293960.avif);
+   background-repeat: repeat;
+   background-position: center;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 600px;
+    height: fit-content;
+    background-color:aquamarine;
+    opacity: 0.9;
+    border-radius: 20px;
+
+}
+
+h1, h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+hr{
+    width: 90%;
+    height: 3px;
+    background-color: red;
+    border-color: red;
+}
+
+h1, .Heading, .heading, footer, p{
+    text-align: center;
+}
+
+.food, .drink{
+    text-align: left;
+    margin-left: 70px;
+}
+.price{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -40px;
+}
+
+.food, .drink, .price{
+    font-size: 18px;
+}
+.description{
+    padding-top: 20px;
+}
+
+a{
+    padding-bottom: 4px;
+    color: rgb(0, 195, 255);
+}
+
+a:active, a:hover{
+    color: lightgoldenrodyellow;
+}
+
+a:visited{
+    color: none;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
