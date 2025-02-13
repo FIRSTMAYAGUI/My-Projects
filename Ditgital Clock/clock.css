@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    background-image: url(beautiful-fall-nature-scenery-free-image.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;/* when you scroll the background image wil be fixed */
+}
+
+#clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 7rem;
+    color: beige;
+    backdrop-filter: blur(4px);
+}
