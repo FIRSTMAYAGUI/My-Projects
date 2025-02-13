@@ -1,0 +1,68 @@
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cal{
+    background-color: rgba(0, 0, 0, 0.829);
+    max-width: 500px;
+    border-radius: 20px;
+    border: none;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    border: none;
+    font-size: 6rem;
+    background-color: rgba(0, 0, 0, 0.185);
+    color: white;
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.356);
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.651);
+}
+
+button:active{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.op-btn{
+    background-color: rgb(0, 132, 255);
+}
+
+.op-btn:hover{
+    background-color: rgba(0, 132, 255, 0.349);
+}
+
+.delete{
+    background-color: rgba(238, 27, 37, 0.836);
+}
+
+.delete:hover{
+    background-color: rgba(238, 34, 27, 0.514);
+}
