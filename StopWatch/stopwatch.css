@@ -1,0 +1,59 @@
+body{
+    background-color: #131327ea;
+    /* background-image: url(beautiful-fall-nature-scenery-free-image.jpeg); */
+    font-family: sans-serif;
+}   
+
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+/* .first-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ */
+
+ .container1{
+    height: 100px;
+ }
+
+.container{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: none;
+    margin: 0 25% 25%;
+    font-size: 4em;
+    border-radius: 10px;
+    height: 250px;
+    background-color: #aaaabb75;
+    opacity: 1;
+    text-shadow: 2px 2px 4px rgb(161, 153, 153);
+}
+
+.btn button{
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    background-color: rgb(250, 100, 100);
+    transition: background-color 0.50s;
+}
+
+button:hover{
+    background-color: rgb(216, 52, 52);
+}
+
+
+
